@@ -56,3 +56,9 @@ Terminal, Neovim (Aether v3), Ghostty, Kitty, Foot, and VS Code themes are gener
 - Omarchy 4.x (Quattro)
 - Hyprland
 - JetBrainsMono Nerd Font (recommended)
+
+## 32:9 ultrawide fork
+
+This fork adds 5120x1440 versions of each wallpaper in `backgrounds/panoramic/` for 49" super-ultrawide monitors. The originals are renamed `adaptive-*`. Each panoramic version fits the full artwork at screen height, with the sides filled by a darkened, blurred copy. Draxo's source is only 1536x1024, so its panoramic version is softer.
+
+The `adaptive-*` / `panoramic/` layout is only used by shells whose background plugin picks `panoramic/` on ultrawide screens. Stock Omarchy ignores it and uses the `adaptive-*` image everywhere.
